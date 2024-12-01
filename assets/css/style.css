@@ -239,17 +239,7 @@ body.nav-active { overflow: hidden; }
 
 .headline-md .has-after { padding-block-end: 8px; }
 
-.headline-md .has-after::after {
-  background-image: url("../images/line-shape.svg");
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
-  z-index: -1;
-}
+
 
 .grid-list {
   display: grid;
@@ -453,7 +443,7 @@ body.nav-active { overflow: hidden; }
   #CATEGORY
 \*-----------------------------------*/
 
-.category .grid-list { padding-block: 40px 52px; }
+.category .grid-list { padding-block: 40px 52px }
 
 .category-card {
   display: flex;
@@ -482,12 +472,12 @@ body.nav-active { overflow: hidden; }
 }
 
 .about .section-text,
-.progress-list li:not(:last-child) { margin-block-end: 32px; }
+.progress-list li:not(:last-child) { margin-block-end: 20px; }
 
 .progress-label-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-block-end: 8px;
+  margin-block-end: 5px;
 }
 
 .progress-label-wrapper .title-sm {
@@ -542,7 +532,7 @@ body.nav-active { overflow: hidden; }
 
 .course-card .card-banner {
   height: 160px;
-  background-color: var(--light-gray);
+  background-color: var(--white);
   overflow: hidden;
   border-radius: var(--radius-4);
 }
@@ -616,7 +606,7 @@ body.nav-active { overflow: hidden; }
 
 .footer-top .grid-list {
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 20px;
 }
 
 .footer-top .grid-list .img-cover { border-radius: var(--radius-6); }
@@ -844,7 +834,7 @@ body.nav-active { overflow: hidden; }
    * FOOTER
    */
 
-  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.5fr 0.8fr; }
+  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.5fr; }
 
   .footer-brand { padding-inline-end: 24px; }
 
